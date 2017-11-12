@@ -1,0 +1,17 @@
+.student_details .btn-edit{
+    background-color: #187de4;
+    padding: 2px 0px 4px 5px;
+    border-radius: 2px;
+    margin: 0 3px;
+    color: #fff;
+}
+.student_details .btn-delete{
+    background-color: #ca2222;
+    padding: 2px 5px 4px 6px;
+    border-radius: 2px;
+    margin-right: 0px;
+    color: #fff;
+}
+#myModal label{
+    text-align: right;
+}

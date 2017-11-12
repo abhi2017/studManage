@@ -1,0 +1,14 @@
+.res_form_cont{
+    width: 600px;
+    margin: 100px auto;
+}
+.res_form_cont label{
+    text-align: right;
+}
+.btn.btnRegister{
+    padding: 6px 30px 8px;
+    text-align: right;
+    background-color: rgb(0,136,183);
+    font-family: "open-sans-regular";
+    cursor: pointer;
+}

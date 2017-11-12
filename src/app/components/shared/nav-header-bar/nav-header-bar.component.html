@@ -1,0 +1,24 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" (click)="moveToLandingPage()" style="cursor:pointer;">
+     
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <h3>Student Management</h3>
+    
+    <ul class="navbar-nav">  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hello, <b>{{userName}}</b>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="left: -67px !important;cursor:pointer;">
+          <a class="dropdown-item" (click)="onLoggedout()">Log Out</a>
+        </div>
+      </li>
+    </ul>  
+  </div>
+  
+</nav>

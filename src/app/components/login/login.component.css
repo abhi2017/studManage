@@ -1,0 +1,61 @@
+/* body{
+    background-color: transparent!important;
+    padding-top: 0!important;
+} */
+
+@font-face{
+  font-family: "open-sans-regular";
+  src: url('../../../assets/fonts/open-sans/OpenSans-Regular.ttf');
+}
+@font-face{
+  font-family: "open-sans-semi-bold";
+  src: url('../../../assets/fonts/open-sans/OpenSans-Semibold.ttf');
+}
+
+.form_cont {
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px 50px;
+}
+
+.form_cont label{
+    color: #8b8b7e;
+    font-family: "open-sans-regular";
+}
+.form_cont input[type="text"], .form_cont input[type="password"]{
+    font-size: 13px;
+    font-family: "open-sans-regular";
+}
+.clearfix{
+	clear: both;
+}
+.btn {
+  border: 0 none;
+  border-radius: 4px;
+  box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.3) inset;
+}
+.btn.btnLogin {
+  padding: 6px 30px 8px;
+  text-align: right;
+  background-color: rgb(0,136,183);
+  font-family: "open-sans-regular";
+  cursor: pointer;
+}
+.about_cont h3{
+    font-family: "open-sans-semi-bold";
+    color: #f1f1f1;
+    padding: 10px 0 0;
+    
+}
+hr.border_bottom{
+	border-bottom: 2px solid rgba(255,255,255,1);
+	width: 200px;
+    margin:0 0 20px;
+}
+
+.about_cont p{
+	text-align: justify;
+    color: #f5f5f5;
+    font-family: "open-sans-regular";
+    font-size: 14px;
+}

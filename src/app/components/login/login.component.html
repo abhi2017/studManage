@@ -1,0 +1,50 @@
+<section class="main_cont">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="login_cont">
+                    <div class="row">
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            
+                            <div class="form_cont">
+                                <h5 class="text-center">Login Details</h5>
+                                <br>
+                                <form action="" class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <label class="sr-only">Username</label>
+                                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                            <div class="input-group-addon" style="width: 2.6rem">
+                                                <i class="fa fa-user"></i>
+                                            </div>
+                                            <input type="text" [(ngModel)]="model.userName" class="form-control" placeholder="Username"  [ngModelOptions]="{standalone: true}" autocomplete="off" required autofocus/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="password">Password</label>
+                                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                            <div class="input-group-addon" style="width: 2.6rem">
+                                                <i class="fa fa-key"></i>
+                                            </div>
+                                            <input type="password" [(ngModel)]="model.password" name="password" class="form-control" [ngModelOptions]="{standalone: true}" autocomplete="off" placeholder="Password" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" (click)="onLoggedin()" value="Login" class="btn btn-info btnLogin pull-right">
+                                    </div>
+                                    <div class="row" style="padding-top: 1rem;" *ngIf="errorMsg">
+                                        <p style="color:red">{{errorMsg}}</p>
+                                    </div>   
+                                    <div class="clearfix"></div>
+                                </form>
+                                <p class="text-center">
+                                    <a (click) = "onRegister()" >Register Now!</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

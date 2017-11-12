@@ -1,0 +1,107 @@
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+ @font-face{
+   font-family: "micross";
+   src: url('../fonts/open-sans/micross.ttf');
+ }
+ @font-face{
+   font-family: "open-sans-semi-bold";
+   src: url('../fonts/open-sans/OpenSans-Semibold.ttf');
+ }
+ @font-face{
+   font-family: "open-sans-light";
+   src: url('../fonts/open-sans/OpenSans-Light.ttf');
+ }
+ body{
+   font-family: "micross";
+   /* background-image: radial-gradient(ellipse farthest-side at 10% 0 , #7fc4f0 20%, #c1dde6); */
+ }
+ h1 {
+   margin-bottom: 10px;
+   /* padding-bottom: 9px; */
+   border-bottom: 1px solid #dddddd;
+ }
+ a:hover{
+   cursor: pointer;
+ }
+ /* p{
+   font-family: open-sans-regular;
+ } */
+ /*
+  * Sidebar
+  */
+ 
+ .placeholders {
+   padding-bottom: 3rem;
+ }
+ 
+ .placeholder img {
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+ }
+ .table {
+     width: 180% !important; 
+     max-width: 150% !important;
+     margin-bottom: 1rem !important;
+ }
+ 
+ /**my old version style*/
+ .navbar-brand > span {
+   color: #fff;
+   /* font-family: "open-sans-regular"; */
+ }
+ .navbar-brand{
+   height: 45px;
+     margin: 0;
+     padding: 0;
+ }
+ .navbar-brand img{
+   margin-top: -5px;
+ }
+ .navbar-nav > li {
+   padding: 4px 0 0;
+ }
+ .navbar-nav > li> a {
+   padding: 0px 10px;
+   vertical-align: middle;
+   color: #fff;
+   /* font-family: "open-sans-regular"; */
+ }
+ .navbar-nav > li> a.icons {
+   color: #fff;
+   /* font-family: "open-sans-regular"; */
+ }
+ .navbar-nav > li> a:hover, .navbar-nav> li>a:focus{
+   color: #fff;
+   /* font-family: "open-sans-regular"; */
+   cursor: pointer;
+   outline: 0;
+   text-decoration: none;
+ }
+ .navbar-nav > li> a.icons:hover, .navbar-nav> li>a.icons:focus{
+   color: #fff;
+   cursor: pointer;
+ }
+ .navbar-nav > li> a > .fa {
+   font-size: 21px;
+ }
+ .fixed-top{
+    background-color: rgb(48,126,204);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+ }
+ #navbarSupportedContent h3 {
+   color: #fff;
+   padding-top: 2px;
+   text-align: center;
+   width: 90%;
+   text-transform: uppercase;
+ }
+ #navbarDropdownMenuLink{
+   color: #fff;
+   /* font-family: "open-sans-regular"; */
+ }
+ #navbarDropdownMenuLink:hover, #navbarDropdownMenuLink:focus {
+   color: #fff;
+ }

@@ -1,0 +1,43 @@
+<section class="main_cont">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+          <div class="login_cont">
+            <div class="row"> 
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                  <div class="res_form_cont">
+                      <h5 class="text-center">Registration Details</h5>
+                      <br>
+                      <form action="" class="form-horizontal" role="form">
+                          <div class="form-group row">
+                            <label for="stud_name" class="col-sm-4">Name</label>
+                            <input type="text" [(ngModel)]="model.studName" [ngModelOptions]="{standalone: true}" class="form-control col-sm-8" id="stud_name" placeholder="Student Name">
+                          </div>
+                          <div class="form-group row">
+                            <label for="stud_email" class="col-sm-4">Email</label>
+                            <input type="email" [(ngModel)]="model.studEmail"  [ngModelOptions]="{standalone: true}" class="form-control col-sm-8" id="stud_email" placeholder="Email">
+                          </div>
+                          <div class="form-group row">
+                            <label for="stud_section" class="col-sm-4">Section</label>
+                            <input type="text" [(ngModel)]="model.studSection" [ngModelOptions]="{standalone: true}" class="form-control col-sm-8" id="stud_section" placeholder="Student section">
+                          </div>
+                          <div class="form-group row">
+                            <label for="stud_mobile" class="col-sm-4">Mobile</label>
+                            <input type="text" [(ngModel)]="model.studMobile" [ngModelOptions]="{standalone: true}" class="form-control col-sm-8" id="stud_mobile" placeholder="Mobile">
+                          </div>
+                          <div class="form-group">
+                            <input type="submit" (click)= "addUser_details()" value="Submit" class="btn btn-info btnRegister pull-right">
+                          </div>
+                          <div class="clearfix"></div>
+                      </form>
+                      <p class="text-center">
+                          <a (click)= "onLogin()" >Back to Login</a>
+                      </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
